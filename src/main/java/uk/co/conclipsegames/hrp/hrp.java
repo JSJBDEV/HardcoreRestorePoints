@@ -26,11 +26,12 @@ public class hrp {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         System.out.println(name + " is loading!");
+        ModBlocks.init();
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-        ModBlocks.init();
+        
 
     }
 
